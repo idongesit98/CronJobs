@@ -79,7 +79,7 @@ const GetAllBirthday = async() =>{
             code:500,
             success:false,
             message:"An error occured while get birthdays",
-            error:error.messagem
+            error:error.message
         }
     }
 }

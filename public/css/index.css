@@ -10,7 +10,7 @@
                 height: 100vh;
                 flex-direction: column;
                 text-align: center;
-                color: white;
+                color: rgb(120, 116, 116);
                 background-color: rgba(0, 0, 0, 0.5);
             }
             .container {

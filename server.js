@@ -1,7 +1,9 @@
 const app = require('./app')
 const db = require('./Utils/db')
-const PORT = 3030;
 require("./Utils/cronJob")
+require('dotenv').config()
+
+const PORT = process.env.PORT || 3030
 
 db.connectToMongoDb()
 
